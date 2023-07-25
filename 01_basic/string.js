@@ -29,3 +29,4 @@ const url="http://abhyudaya.com/abhyudaya%20dubey"
 console.log(url.replace("%20","-"))
 
 // replaces the value
+
