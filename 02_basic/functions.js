@@ -43,3 +43,47 @@ function loginuser(username){
 // console.log(detail)
 
 console.log(loginuser("dubey"))
+
+
+function calculatecartprice(...num1){
+    return num1
+
+}
+// let a=calculatecartprice(200,400,500)
+
+// for(cart in a){
+//     console.log(a)
+// }
+
+function calculatecartprice2(val1,val2,...num1){
+    return num1
+
+
+}
+console.log(calculatecartprice2(200,300,400,4000))
+
+const user={
+    username:"dev",
+    age:21
+}
+
+
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and age is ${anyobject.age}`)
+
+    
+}
+handleobject(user)
+
+handleobject({
+    user:"dubey",
+    price:200
+})
+
+const array=[1,2,3,4,56]
+
+function returnsecondvalue(get_Array){
+    return get_Array[1]
+
+}
+console.log(returnsecondvalue(array))
