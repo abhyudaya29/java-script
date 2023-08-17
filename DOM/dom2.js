@@ -10,7 +10,12 @@
 
 // add event listner
 // document.addEventListener('click',function(){console.log('hey baby')})
-let a=document.querySelector('h1')
-a.addEventListener('click',function(){
-    a.style.background='green'
+// let a=document.querySelector('h1')
+// a.addEventListener('click',function(){
+//     a.style.background='green'
+// })
+
+const content=document.querySelector('#wrapper')
+content.addEventListener('click',function(i){
+    console.log(i)
 })
