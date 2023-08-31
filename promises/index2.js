@@ -57,3 +57,26 @@ const username=promisenew.then((user)=>{
     console.log("The promise is either ")
 })
 // console.log(username)
+
+const promis5=new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error=true
+        if(!error){
+            resolve({username:"abhyudaya"})
+        }
+        else{
+            reject('Error: Something Went Wrong')
+        }
+    },1000)
+})
+
+async function consume5(){
+    try{
+        const response=await promis5
+        console.log(response)
+    }catch{
+        console.log("error")
+    }
+}
+
+consume5()
