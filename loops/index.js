@@ -11,7 +11,7 @@
 //     }
 // }
 
-
+// for loop is executed for the iteration
 const array=['apple','mosmi','aam'];
 console.log(array.length);
 for(let i=0;i<array.length;i++){
@@ -21,3 +21,19 @@ for(let i=0;i<array.length;i++){
     // console.log("hii");
     console.log(array[i]);
 }
+
+const myarray=[1,2,3,4,5];
+let i=0;
+// while llop is executed till the condition is true;
+while(i<myarray.length){
+    console.log(`vale is : ${myarray[i]}`);
+    i++;
+}
+
+// first code is executed and then condition is checked
+let score=1;
+do {
+    console.log(`vale is: ${score}`);
+    score++;
+    
+} while (score<=10);
