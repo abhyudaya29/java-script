@@ -17,3 +17,4 @@ else{
     console.log(`score is less than ${score}`);
 }
 console.log(power);
+
