@@ -19,7 +19,7 @@
 
 // // let merapromiese2=new Promise(function(resolve,reject){
 // //     setTimeout(function(){
-// //         console.log("Babe i'm inside promise2")
+// //         console.log(" i'm inside promise2")
 // //     },3000)
 // //     // resolve(1998)
 // //     // reject(new Error("Baby error aya hai2"))
